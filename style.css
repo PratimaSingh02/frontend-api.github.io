@@ -11,10 +11,11 @@
 body{
     margin:0;
     overflow-x: hidden;
+    min-width: 320px;
 }
 .wrapper{
     margin:0 auto;
-    width:90%;
+    width:85%;
     /* border:1px solid red; */
 }
 
@@ -32,7 +33,7 @@ nav{
 .logo{
     font-family: 'Barlow', sans-serif;
     color:#2DABFF;
-    font-size: 2.3em;
+    font-size: 2.3rem;
     font-weight: 600;
 }
 
@@ -50,7 +51,7 @@ nav{
 }
 
 .topbar a{
-    font-size:1.5em;
+    font-size:1.5rem;
     color:#666666;
 }
 
@@ -92,7 +93,7 @@ nav{
 }
 .sidebar li a{
     color:#666666;
-    font-size: 1.4em;
+    font-size: 1.4rem;
 }
 .sidebar li a:hover{
     color:#2DABFF;
@@ -104,15 +105,15 @@ nav{
 .sidebar p{
     color:#2DABFF;
     font-weight: 600;
-    font-size: 1.3em;
+    font-size: 1.3rem;
 }
 
 .menubtn,
 .cancel{
-    font-size: 2.5em;
     color:#999999;
     float:right;
     cursor: pointer;
+    font-size: 32px;
 }
 .cancel{
     display: none;
@@ -123,20 +124,23 @@ nav{
 }
 
 /* hero section 1 */
-.container{
-    /* border: 1px solid black; */
-    margin:3em 0;
-}
 
 .hero1{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin:2em auto;
     /* border:1px solid red; */
 }
 .hero1-s1{
     display: none;
+    text-align: center;
+}
+
+.hero1-s1 img{
+    max-width: 280px;
+    max-height: 260px;
 }
 .hero1-s2{
     width:50%;
@@ -146,6 +150,7 @@ nav{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    /* border:1px solid red; */
 }
 .hero1-s3 ,.hero1-s1{
     width:50%;
@@ -155,19 +160,18 @@ nav{
     max-width:510px;
     max-height:466px;
 }
-.hero1-s1 img{
-    max-width: 280px;
-    max-height: 260px;
-}
 
 .hero1-s2 h1{
-    font-size: 4em;
-    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 10px;
+    /* text-align: center; */
 }
 
 .hero1-s2 p{
     color:#666666;
-    font-size: 2em;
+    font-size: 2rem;
+    margin:0;
+    margin-bottom: 2em;
 }
 
 .hero1-s2 button{
@@ -178,7 +182,7 @@ nav{
     background-color: #2DABFF;
     border-radius: 6px;
     padding:1em 2em;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 /* end of hero section  1*/
@@ -194,6 +198,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin:2em auto;
     /* border:1px solid yellow; */
 }
 .hero2-s1{
@@ -201,17 +206,18 @@ nav{
 }
 .hero2-s1 h2,
 .hero3-s1 h2{
-    font-size: 2.6em;
+    font-size: 2.6rem;
 }
 .hero2-s2{
     display: grid;
     grid-template-columns: 42% 42%;
     justify-content: space-between;
     /* border:1px solid greenyellow; */
-    /* justify-content: center; */
+    width: 100%;
 }
 .card{
     display: flex;
+    width:335px;
     min-height: 200px;
     align-items: flex-start;
     justify-content: flex-start;
@@ -220,14 +226,14 @@ nav{
 }
 .card span{
     line-height: 1.6em;
-    font-size: 5em;
+    font-size: 5rem;
     color:#D3D3D3;
     margin-right: 0.3em;
 }
 .card p{
     /* line-height: 2em; */
     width: 80%;
-    font-size: 1.7em;
+    font-size: 1.7rem;
     color:#666666;
 }
 /* end of hero section 2 */
@@ -237,8 +243,12 @@ nav{
     min-width:300px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    margin:2em auto;
     /* border: 1px solid red; */
+}
+.hero3-s1{
+    width:500px;
 }
 .hero3-s2{
     display: grid;
@@ -256,7 +266,7 @@ nav{
 }
 .hero3-s2 p{
     color:#666666;
-    font-size: 1.7em;
+    font-size: 1.7rem;
     width:90%;
 }
 /* end of hero 3 */
@@ -268,7 +278,6 @@ footer{
 }
 
 .footer-div{
-    width:90%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -278,20 +287,20 @@ footer{
 .footer-s1 label{
     font-family: 'Barlow', sans-serif;
     color:white;
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: 600;
     line-height: 2em;
 }
 
 .footer-s1 span{
     color: white;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     line-height: 1.5em;
 }
 
 .footer-s1 p{
     color: white;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     /* margin-bottom: 2em; */
 }
 
@@ -317,7 +326,7 @@ footer{
 
 .footer-s2 i{
     color: white;
-    font-size: 2.3em;
+    font-size: 2.3rem;
 }
 
 .footer-s2 button{
@@ -328,7 +337,7 @@ footer{
     border: none;
     outline: none;
     border-radius: 6px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bolder;
     cursor: pointer;
 }
@@ -342,16 +351,16 @@ footer{
         margin-left: 0;
     }
     .topbar li a{
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
     .hero1-s2 h1{
-        font-size: 2em;
+        font-size: 2.3rem;
     }
     .hero1-s2 p{
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
     .hero1-s2 button{
-        font-size: 1.3em;
+        font-size: 1.3rem;
     }
     .hero1-s3 img
     {
@@ -363,11 +372,18 @@ footer{
         justify-content: flex-start;
         grid-template-columns: 50% 50%;
     }
+    .hero2-s2 .card{
+        width:unset;
+    }
+        
+    .hero3-s1{
+        width:400px;
+    }
     .hero2-s1 h2,.hero3-s1 h2{
-        font-size: 1.6em;
+        font-size: 1.6rem;
     }
     .hero2-s2 .card p{
-        font-size: 1.4em;
+        font-size: 1.4rem;
     }
     .hero3-s2{
         grid-template-columns: 60% 40%;
@@ -378,22 +394,22 @@ footer{
         min-height:220px;
     }
     .hero3-s2 p{
-        font-size: 1.4em;
+        font-size: 1.4rem;
     }
     .footer-s1 label{
-        font-size: 2em;
+        font-size: 2rem;
     }
     .footer-s1 span,.footer-s1 p{
-        font-size: 1.6em;
+        font-size: 1.6rem;
     }
     .footer-s2 div{
         width:170px;
     }
     .footer-s2 i{
-        font-size: 1.4em;
+        font-size: 1.4rem;
     }
     .footer-s2 button{
-        font-size: 1em;
+        font-size: 1rem;
     }
 }
 
@@ -411,9 +427,6 @@ footer{
     .menubtn-div{
         display: block;
     }
-    .menubtn-div i{
-        font-size: 30px;
-    }
     .topbar{
         display: none;
     }
@@ -424,6 +437,7 @@ footer{
         display: block;
     }
     .hero1-s2{
+        text-align: center;
         align-items: center;
     }
     .hero1-s3{
@@ -433,19 +447,19 @@ footer{
         min-width: 300px;
     }
     .hero1-s2 h1{
-        font-size: 2em;
+        font-size: 2rem;
     }
     .hero1-s2 p{
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
     .hero1-s2 button{
-        font-size: 1em;
+        font-size: 1rem;
     }
     .hero2{
         align-items: center;
     }
     .hero2-s1 h2,.hero3-s1 h2{
-        font-size: 1.5em;
+        font-size: 1.5rem;
         /* border:1px solid green;       */
     }
     .card{
@@ -455,15 +469,29 @@ footer{
         font-size: 3em;
     }
     .hero2-s2 .card p,.hero3-s2 p{
-        font-size: 1em;
+        font-size: 1rem;
+    }
+    .hero3-s1{
+        max-width: 300px;
     }
     .hero3-s1 h2{
         text-align: center;
     }
-    .hero3-s2 img{
-        min-width: 100px;
-        min-height: 100px;
+    .hero3-s2{
+        /* border: 1px solid red; */
+        grid-template-columns: 100%;
+    }
+    .hero3-s2 div{
+        /* border:1px solid yellow; */
+        text-align: center;
+    }
+    .hero3-s2 img,.hero1-s1 img{
+        max-width: 250px;
+        max-height: 260px;
         /* border:1px solid green; */
+    }
+    .hero3-s2 p{
+        margin:0 auto;
     }
     
     .footer-div{
@@ -476,7 +504,7 @@ footer{
         width:150px;
     }
     .footer-s2 i{
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
     .footer-s2 button{
         display: none;
