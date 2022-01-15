@@ -14,7 +14,7 @@ body{
 }
 .wrapper{
     margin:0 auto;
-    width:95%;
+    width:90%;
     /* border:1px solid red; */
 }
 
@@ -402,16 +402,20 @@ footer{
 
 @media screen and (max-width:425px) {
     .wrapper{
-        width:98%;
+        width:93%;
     }
     .logo{
         display: none;
     }
     .logo2{
         display: block;
+        width:30px;
     }
     .menubtn-div{
         display: block;
+    }
+    .menubtn-div i{
+        font-size: 30px;
     }
     .topbar{
         display: none;
@@ -475,7 +479,7 @@ footer{
         width:150px;
     }
     .footer-s2 i{
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .footer-s2 button{
         display: none;
