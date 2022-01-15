@@ -384,10 +384,10 @@ footer{
         font-size: 1.4em;
     }
     .footer-s1 label{
-        font-size: 1.7em;
+        font-size: 2em;
     }
     .footer-s1 span,.footer-s1 p{
-        font-size: 1em;
+        font-size: 1.6em;
     }
     .footer-s2 div{
         width:170px;
@@ -469,11 +469,8 @@ footer{
     .footer-div{
         align-items: flex-end;
     }
-    .footer-s1 label{
-        font-size: 1em;
-    }
     .footer-s1 span,.footer-s1 p{
-        font-size: 0.6em;
+        font-size: 0.65em;
     }
     .footer-s2 div{
         width:150px;
