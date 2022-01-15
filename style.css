@@ -147,6 +147,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin:2em auto;
+    margin-top:90px;
     /* border:1px solid red; */
 }
 .hero1-s1{
@@ -458,6 +459,9 @@ footer{
     }
     .break{
         margin:2em auto;
+    }
+    .hero1{
+        margin-top:0;
     }
     .hero1-s1{
         display: block;
