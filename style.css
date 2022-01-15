@@ -472,7 +472,7 @@ footer{
         font-size: 1rem;
     }
     .hero3-s1{
-        max-width: 300px;
+        margin:0 auto;
     }
     .hero3-s1 h2{
         text-align: center;
