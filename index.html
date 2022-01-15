@@ -9,6 +9,8 @@
     <link rel='stylesheet' href='style.css'>
 </head>
 <body>
+        <div class="grey-bar"></div>
+    
     <div class="wrapper">
         <!-- Navbar -->
         <nav>
@@ -18,7 +20,7 @@
                 <i class="fas fa-bars menubtn"></i>
             </div>
             <ul class='topbar'>
-                <li><a href='#' class='active'>api</a></li>
+                <li><a href='#'>api</a></li>
                 <li><a href='#'>about us</a></li>
                 <li><a href='#'>partners</a></li>
                 <li><a href='#'>career</a></li>
@@ -138,6 +140,8 @@
 
     <script>
         window.onload=()=>{
+            console.log(window.screen.availWidth);
+            console.log(window.screen.availHeight);
             const menubtn=document.querySelector('.menubtn')
             const cancelbtn=document.querySelector('.cancel')
             const list=document.querySelector('.sidebar')
