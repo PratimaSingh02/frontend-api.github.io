@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Languify</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav>
+            <label class='logo'>languify</label>
+            <img class='logo2' src='nav.svg' alt='languify'>
+            <div class="menubtn-div">
+                <i class="fas fa-bars menubtn"></i>
+            </div>
+            <ul class='topbar'>
+                <li><a href='#' class='active'>api</a></li>
+                <li><a href='#'>about us</a></li>
+                <li><a href='#'>partners</a></li>
+                <li><a href='#'>career</a></li>
+                <li><a href='#'>sign in</a></li>
+            </ul>
+        </nav>
+
+        <div class='sidebar'>
+            <div class="cancel-btn">
+                <i class="fa fa-times cancel" aria-hidden="true"></i>
+            </div>
+            <ul>
+                <li><a href='#'>about us</a></li>
+                <li><a href='#'>partners</a></li>
+                <li><a href='#'>career</a></li>
+                <hr/>
+                <p>Languify is available on Google Chrome Desktop</p>
+            </ul>
+        </div>
+        <!-- End of Navbar -->
+
+        <!-- Hero 1 -->
+        <!-- <div class="container"> -->
+            <div class="hero1">
+                <div class='hero1-s1'>
+                    <img src='hero1.svg' alt='hero-img'>
+                </div>
+                <div class='hero1-s2'>
+                    <h1>an communication AI to simplify</h1>
+                    <p>sales, interviews, presentations and much more</p>
+                    <button type='submit'>Contact Us</button>
+                </div>
+                <div class="hero1-s3">
+                    <img src='hero1.svg' alt='hero-img'>
+                </div>
+            </div>
+        <!-- </div> -->
+        <!-- End of Hero 1 -->
+
+        <hr class='break'/>
+
+        <!-- Hero 2 -->
+        <!-- <div class="container"> -->
+            <div class="hero2">
+                <div class='hero2-s1'>
+                    <h2>how does it work</h2>
+                </div>
+                <div class="hero2-s2">
+                    <div class="card">
+                        <span>1</span>
+                        <p>Integrate Languify’s communication API in the userflows</p>
+                    </div>
+
+                    <div class="card">
+                        <span>2</span>
+                        <p>Convert the static userflows and content in dynamic engaging userflows</p>
+                    </div>
+
+                    <div class="card">
+                        <span>3</span>
+                        <p>Interactivity helps in improving user knowledge retention. Insights from the API also help in optimising the course structure so that user learn it in a better way</p>
+                    </div>
+
+                    <div class="card">
+                        <span>4</span>
+                        <p>Increased user retention improves the top line helping you scale faster simultaneously reducing opertional costs.</p>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+        <!-- End of Hero 2 -->
+
+        <hr class='break'/>
+
+        <!-- hero 3 -->
+        <!-- <div class="container"> -->
+            <div class="hero3">
+                <div class="hero3-s1">
+                    <h2>customise your learning platform integrate with languify</h2>
+                </div>
+                <div class="hero3-s2">
+                    <div>
+                        <img src='hero3.svg' alt='hero-img'>
+                    </div>
+                    <div>
+                        <p>Languify extension works where you do, seamless integration with yous system.<br/><br/>
+                        Track your performace using previous conversations. Increase your languify score by improving on different speech parameters </p>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+        <!-- end of hero 3 -->
+    </div>
+
+    <footer>
+        <div class="wrapper footer-div">
+            <div class="footer-s1">
+                <label>languify</label><br/>
+                <span>Made in India with 🤍 from IITB alums</span>
+                <p>Contact us : info@languify.in </p>
+            </div>
+            <div class="footer-s2">
+                <div class='social-icons'>
+                    <i class="fab fa-instagram"></i>
+                    <i class='fab fa-facebook'></i>
+                    <i class='fab fa-linkedin'></i>
+                </div>
+                <div>
+                    <button type='submit'>Add to Chrome</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        window.onload=()=>{
+            const menubtn=document.querySelector('.menubtn')
+            const cancelbtn=document.querySelector('.cancel')
+            const list=document.querySelector('.sidebar')
+            //console.log(cancelbtn);
+            menubtn.addEventListener('click',(e)=>{
+                menubtn.style.display='none';
+                cancelbtn.style.display='block';
+                list.style.display='block';
+            })
+           cancelbtn.addEventListener('click',()=>{
+               cancelbtn.style.display='none';
+               menubtn.style.display='block';
+               list.style.display='none';
+           })
+        }
+    </script>
+</body>
+</html>
