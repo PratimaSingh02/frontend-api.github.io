@@ -141,7 +141,11 @@ nav{
 .hero1-s2{
     width:50%;
     max-width:602px;
-    max-height:271px;
+    max-height:271px;  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 .hero1-s3 ,.hero1-s1{
     width:50%;
@@ -154,13 +158,6 @@ nav{
 .hero1-s1 img{
     max-width: 280px;
     max-height: 260px;
-}
-
-.hero1-s2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .hero1-s2 h1{
@@ -425,6 +422,9 @@ footer{
     }
     .hero1-s1{
         display: block;
+    }
+    .hero1-s2{
+        align-items: center;
     }
     .hero1-s3{
         display: none;
